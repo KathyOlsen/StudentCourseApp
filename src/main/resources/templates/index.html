@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home</title>
+    <div th:insert="base :: head"></div>
+</head>
+<body>
+<div th:insert="base :: navlinks"></div>
+<div class="container">
+    <div class="jumbotron">
+        <h1>Welcome to Your Student Courses Hub</h1>
+        <br>
+        <h3>For a list of available classes, click <a href ="/classes">here</a>.</h3>
+        <br>
+        <h3>For a list of your enrolled classes and your transcript, click <a href ="/student">here</a>.</h3>
+        <br>
+    </div>
+</div>
+<div th:insert="base :: footer"></div>
+<div th:insert="base :: bootstrapScripts"></div>
+</body>
+</html>
