@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Student</title>
+    <div th:insert="base :: head"></div>
+</head>
+<body>
+<div th:insert="base :: navlinks"></div>
+
+<div class="container">
+    <div class="card" >
+        <div class="card-top">
+            <h2><b>Arya Stark</b></h2>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Current Enrolled Courses</h5>
+        </div>
+        <div class="row">
+            <div class="col" align="left">
+                <p>Math 1001</p>
+                <hr>
+                <p>Computer Science 4101</p>
+                <hr>
+                <p>Philosophy 3000</p>
+                <hr>
+                <p>Theater Studies 2110</p>
+            </div>
+            <div class="col" align="left">
+                <p>Algebra</p>
+                <hr>
+                <p>Web Design</p>
+                <hr>
+                <p>Morality and Contemporary Law</p>
+                <hr>
+                <p>The Dramatic Monster: Horror on Stage and Screen</p>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="container">
+    <div class="card">
+        <div class="card-top">
+            <h2><b>Arya Stark</b></h2>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Transcript</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Semester 1: Fall 2018</li>
+                <div class="row">
+                    <div class="col-sm-3" align="left">
+                        <p>Chemistry 1001</p>
+                        <hr>
+                        <p>English 2002</p>
+                        <hr>
+                        <p>History 2010</p>
+                        <hr>
+                        <p>Theater Studies 1005</p>
+                    </div>
+                    <div class="col-sm-8" align="left">
+                        <p>Introduction to Chemistry</p>
+                        <hr>
+                        <p>English Literature of the Middle Ages</p>
+                        <hr>
+                        <p>American History</p>
+                        <hr>
+                        <p>Historical Films</p>
+                    </div>
+                    <div class="col-sm-1" align="left">
+                        <p>C</p>
+                        <hr>
+                        <p>A</p>
+                        <hr>
+                        <p>B</p>
+                        <hr>
+                        <p>A-</p>
+                    </div>
+                </div>
+            <li class="list-group-item">Semester 2: Spring 2019</li>
+                <div class="row">
+                    <div class="col-sm-3" align="left">
+                        <p>Sociology 1003</p>
+                        <hr>
+                        <p>Chemistry 1002</p>
+                        <hr>
+                        <p>Celtic Studies 2030</p>
+                        <hr>
+                        <p>Computer Science 2090</p>
+                    </div>
+                    <div class="col-sm-8" align="left">
+                        <p>Introduction to Sociology</p>
+                        <hr>
+                        <p>Chemical Reactions</p>
+                        <hr>
+                        <p>Religious Rites</p>
+                        <hr>
+                        <p>Java Programming I</p>
+                    </div>
+                    <div class="col-sm-1" align="left">
+                        <p>A</p>
+                        <hr>
+                        <p>C+</p>
+                        <hr>
+                        <p>B+</p>
+                        <hr>
+                        <p>B</p>
+                    </div>
+                </div>
+            <li class="list-group-item">Semester 3: Fall 2019</li>
+                <div class="row">
+                    <div class="col-sm-3" align="left">
+                        <p>Math 1001</p>
+                        <hr>
+                        <p>Computer Science 4101</p>
+                        <hr>
+                        <p>Philosophy 3000</p>
+                        <hr>
+                        <p>Theater Studies 2110</p>
+                    </div>
+                    <div class="col-sm-8" align="left">
+                        <p>Algebra</p>
+                        <hr>
+                        <p>Web Design</p>
+                        <hr>
+                        <p>Morality and Contemporary Law</p>
+                        <hr>
+                        <p>The Dramatic Monster: Horror on Stage and Screen</p>
+                    </div>
+                    <div class="col-sm-1" align="left">
+<!--                        <p> </p>-->
+<!--                        -->
+<!--                        <p> </p>-->
+<!--                        -->
+<!--                        <p> </p>-->
+<!--                        -->
+<!--                        <p> </p>-->
+                    </div>
+                </div>
+        </ul>
+    </div>
+</div>
+<br>
+<div th:insert="base :: footer"></div>
+<div th:insert="base :: bootstrapScripts"></div>
+</body>
+</html>
